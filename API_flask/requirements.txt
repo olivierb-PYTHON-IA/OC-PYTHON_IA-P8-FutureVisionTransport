@@ -1,0 +1,8 @@
+json5==0.9.5
+Flask==2.0.1
+numpy==1.19.5
+tensorflow==2.6.0
+segmentation-models==1.0.1
+azureml-core==1.34.0
+azureml-dataset-runtime==1.33.0
+albumentations==1.0.3

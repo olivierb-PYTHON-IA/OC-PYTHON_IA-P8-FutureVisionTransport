@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <h1>Cityscape segmentation - ID Image : {{id_image}}</h1>
+
+    	<h2>Image + Mask to predict</h2>
+  			<img src="{{url_for('static', filename=image_mask_to_predict_url)}}" />
+
+  		<h2>Image + Mask predicted</h2>	
+  			<img src="{{url_for('static', filename=image_mask_predicted_url)}}" />
+
+  </body>
+
+</html>
